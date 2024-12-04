@@ -1,15 +1,103 @@
 <!DOCTYPE html>
 <html lang="ru">
     <head>
-        <meta charset="utf-8" />
-        <meta name="keywords" content="HTML " />
-        <meta name="description" content="HTML-link" />
+     <meta charset="utf-8" />
+     <meta name="keywords" content="HTML " />
+     <meta name="description" content="HTML-link" />
+     <title>Вторая страница</title>
     </head>
     <body>
      <header>
          <nav class="navigation">
-             <a href="index.html">Главная</a>
+             <ul>
+                <li>
+                    <a href="index.html">Главная</a>
+                </li>
+                <li>
+                    <a href="#HTML" class="link-id-html">HTML</a>
+                </li>
+                <li>
+                    <a href="#CSS" class="link-id-CSS">CSS</a>   
+                </li>
+                <li>
+                    <a href="#JavaSkript" class="link-id-JS">JavaSkript</a>   
+                </li>
+            </ul>
          </nav>
-     </header>
+        </header>
+     <main>
+         <section class="definition">
+         <h1 class="visually-hidden">Определения</h1>
+         <div class="definition-HTML">
+             <ol>
+                 <li id="HTML">
+                     <dl>
+                         <dt>HTML</dt>
+                         <dd>язык разметки для создания структуры веб-страницы и представления контента.</dd>
+                         <ul> 
+                             <p>Используется для:</p>
+                             <li>Структурирования</li>
+                             <li>Отображения страницы</li>
+                             <li>Отображения контента на странице</li>
+                         </ul>
+                     </dl>
+                 </li>
+                 <li id="CSS">
+                     <dl>
+                         <dt>CSS</dt>
+                         <dd>CSS — Cascading Style Sheets — это каскадные таблицы стилей. По сути — язык, который отвечает за описание внешнего вида HTML-документа. <br>Подавляющее большинство современных веб-сайтов работают на основе связки HTML+CSS.</dd>
+                         <ul> 
+                             <p>Используется для Стилизации страницы:</p>
+                             <li>Фона</li>
+                             <li>Текста</li>
+                             <li>Стиль шрифтов</li>
+                             <li>Декоративных элементов</li>
+                        </ul>
+                     </dl>
+                 </li>
+                 <li id="JavaSkript">
+                     <dl>
+                         <dt>JavaSkript</dt>
+                         <dd>это язык, который позволяет вам применять сложные вещи на web странице — каждый раз, когда на web странице происходит что-то большее, чем просто её статичное отображение </dd>
+                         <ul> 
+                             <p>Позволяет создать:</p>
+                             <li>Динамически обновляемый контент</li>
+                             <li>Управлять мультимедиа</li>
+                             <li>Анимировать изображения </li>
+                             <li>Передавать информацию между пользователем и сервером, и многое другое.</li>
+                         </ul>
+                     </dl>
+                 </li>   
+             </ol>
+         </div>
+         </section>
+     </main>
+     <footer>
+        <div class="contact">
+            <section class="footer-contact">
+                <ul class="media"> 
+                    <li class="VK">
+                        <a href="https://vk.com/thomassowyer">ВКонтакте</a>
+                    </li> 
+                    <li class="Telegram">
+                        <a href="https://t.me/Thomassowyer">Телеграм</a>
+                    </li> 
+                    <li class="instagram">
+                        <a href="https://www.instagram.com/thomassowyer">Инстаграм</a>
+                    </li>
+                </ul>
+            </section>
+            <!--Кнопки -->
+            <section class="newsletter">
+                <button class="contact-email">Написать</button>
+                <button>
+                    <address class="contact-adress">
+                        <a class="contact-phone" href="tel:+79292467450">Позвонить</a>
+                    </address>
+                </button>
+                <button class="contact-social">Оставить предложение о работе</button>
+            </section>
+        </div>
+     </footer>
     </body>
 </html>
